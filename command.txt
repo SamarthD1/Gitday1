@@ -19,6 +19,8 @@ git checkout main
 
 git merge feature_branch_1
 
+
+
 Notes :
 git add . -> It adds  the changes that you made to your code to the staging area,
 
@@ -45,5 +47,12 @@ Steps->
 1.Checkout to main/master branch
 2.git merge<branchname>
 
+Git clone-> used to clone a repo from Github
+
+Flow
+Your primary branch is main/master
+You checkout  to feature branch and then do the changes required over there
+Then you  stage and commit those changes
+Then you switch back to main branch and merge the feature branch with main branch using git merge <featureBranchName>
 
 
