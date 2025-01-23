@@ -15,6 +15,10 @@ git branch feature_branch_1
 
 git checkout feature_branch_1
 
+git checkout main
+
+git merge feature_branch_1
+
 Notes :
 git add . -> It adds  the changes that you made to your code to the staging area,
 
@@ -35,4 +39,11 @@ Branching in git
 Git branch <branchname> ->used to create new branch from the current branch in git 
 
 Git checkout <branchname> -> used to switch to that branch
+
+Merging in git
+Steps->
+1.Checkout to main/master branch
+2.git merge<branchname>
+
+
 
